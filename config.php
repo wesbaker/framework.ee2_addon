@@ -6,6 +6,7 @@ define('IS_AJAX', isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVE
 if (! defined('ADDON_NAME'))
 {
 	define('ADDON_NAME', '');
+	define('ADDON_NAME_MACHINE', ''); // Should have no spaces in it
 	define('ADDON_VER',  '1.0');
 	define('ADDON_DESC', '');
 	define('ADDON_DOCS', '');

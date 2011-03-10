@@ -21,7 +21,7 @@ class Addon_upd
 	{
 		// Insert module information into Modules table
 		$data = array(
-			"module_name" => ADDON_NAME, 
+			"module_name" => ADDON_NAME_MACHINE, 
 			"module_version" => $this->version, 
 			"has_cp_backend" => "y",
 			"has_publish_fields" => "n"
